@@ -20,7 +20,7 @@ Constraints:
 -231 <= nums[i] <= 231 - 1
 
 
-#Solution:
+#Solution 1:
 
 class Solution {
     public void moveZeroes(int[] nums) {
@@ -37,6 +37,25 @@ class Solution {
             index++;
         }
 
+        
+    }
+}
+
+
+#Solution 2:
+
+
+class Solution {
+    public void moveZeroes(int[] nums) {
+        int lastnonzero = 0;
+        for(int i =0; i < nums.length; i++){
+            if(nums[i]!=0){
+                int temp = nums[i];
+                nums[i] = nums[lastnonzero];
+                nums[lastnonzero] = temp;
+                lastnonzero++;
+            }
+        }
         
     }
 }
