@@ -2,5 +2,7 @@
 
 This folder contains LeetCode problems related to Arrays.
 
-Problems covered:
-- Move Zeroes
+## Problems Covered
+
+1. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+
