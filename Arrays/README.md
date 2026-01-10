@@ -6,3 +6,4 @@ This folder contains LeetCode problems related to Arrays.
 
 1. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 
+2. [Majority Element](https://leetcode.com/problems/majority-element/)
